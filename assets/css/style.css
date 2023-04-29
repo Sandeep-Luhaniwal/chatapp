@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.col-3{
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-4{
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-5{
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-6{
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-7{
+    width: 58.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-8{
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-12{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-item-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.min-vh-100{
+    min-height: 100vh;
+}
+.fs-14{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.fs-21{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.fs-26{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    max-width: 499px;
+}
+.bg-blue{
+    background-color: #1E71FF;
+}
+.text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.gap{
+    gap: 30px;
+}
+nav ul li a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+        color: #ffffff;
+}
+.btn-1{
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 210px;
+    display: inline-block;
+}
+.pt-35{
+    padding-top: 35px;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+.w-100{
+    width: 100%;
+}
+.ml-36{
+    margin-left: 36px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mt-75{
+    margin-top: 75px;
+}
+.btn-2{
+    padding: 16px 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 60px;
+    background-color: #1E71FF;
+    cursor: pointer;
+}
+.btn-2:hover{
+    color: #1E71FF;
+    background-color: #ffffff;
+    border: 1px solid #1E71FF ;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.heading-2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    color: #2B353E;
+}
+.box-1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(43, 53, 62, 0.7);
+    max-width: 566px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.bg-color-E8F1FF{
+    background-color: #E8F1FF;
+}
+.flex-grow-2{
+    flex-grow: 2;
+}
+.position{
+    transform: translateX(-30px);
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.position:hover{
+    transform: translateX(0px);
+    pointer-events: visible;
+}
+.fs-45-Poppins{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    color: #2B353E;
+}
+.fs-21-roboto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(43, 53, 62, 0.7);
+}
+.btn-3{
+    padding: 16px 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #1E71FF;
+    border: 1px solid #1E71FF;
+    border-radius: 60px;
+    background-color: #E8F1FF;
+    cursor: pointer;
+}
+.btn-3:hover{
+    color: #FFFFFF;
+    background-color:  #1E71FF;
+    border: 1px solid #1E71FF ;
+}
+.btn-4{
+    padding: 16px 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 60px;
+    background-color: #1E71FF;
+    cursor: pointer;
+}
+.btn-4:hover{
+    color: #1E71FF;
+    background-color: #E8F1FF;
+    border: 1px solid #1E71FF ;
+}
+
+.fs-18-roboto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(43, 53, 62, 0.7);
+}
+.gap-8{
+    gap: 8px;
+}
+.gap-30{
+    gap: 65px;
+    margin-left: 10px;
+}
+.w-150{
+    width: 190px;
+    padding: 30px;
+    display: none;
+}
+
+.btn-3:hover + .w-150{
+    display: block;
+}
+.pb-40{
+    padding-bottom: 80px;
+}
+.box-3{
+   min-height: 120px;
+}
+.align-center{
+    color: #1E71FF ;
+}
+
+.min-vh-50{
+    min-height: 50vh;
+}
+.pt-90{
+    padding-top: 90px;
+   
+}
+.pt-12{
+    padding-top: 12px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pl-100{
+    padding-left: 100px;
+}
+.text-1{
+    color: #1E71FF ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+}
+.box-2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 168px;
+    color: rgba(43, 53, 62, 0.7);
+    padding-top: 18px;
+}
+.max-w-168{
+    max-width: 168px;
+}
+footer div ul li:first-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B353E;
+}
+footer div ul li a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(43, 53, 62, 0.7);
+}
+.fs-13{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(43, 53, 62, 0.7);
+    padding-top: 12px;
+}
+.fs-13-roboto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(43, 53, 62, 0.7);
+    
+}
